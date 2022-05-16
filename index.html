@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>tic tac toe</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Bodoni:ital,wght@1,400;1,600&family=Tapestry&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="container">
+        <!-- Strating page -->
+        <div id="staringPage">
+            <h2>Tic Tac Toe</h2>
+            <div id="line"></div>
+            <h4>select which you want to be?</h4>
+            <div id="button">
+              <button id="playerx" class="choose">player ( x )</button>
+              <button id="player0" class="choose">player ( o )</button> 
+            </div>
+            <P class="created">Created by <span> Salah Ileeye</span></P>
+          
+        </div>
+        <!-- Main page-->
+        <div id="mainPage">
+            <div id="headerBtns">
+                <button id="">X Turn</button>
+                <button id="O_Turn">O Turn</button>
+                <div id="showChange"></div>
+            </div>
+            
+            <div id="aroowsXandO" >
+            <div id="gameBoard">
+                <div class="boxes" style="color: blue;"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+            </div>
+            </div>
+            </div>
+        <!-- Winner page-->
+        <div id="winner">
+            <h2 id="winnerName">player x win the Game!</h2>
+            <div id="button">
+                <button id="quit">play Again</button>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>
