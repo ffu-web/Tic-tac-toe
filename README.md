@@ -1,1 +1,2 @@
-# Tic tack toe Game 
+# TicTacToe
+A JavaScript TicTacToe Website
