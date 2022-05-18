@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="landingBG open">
+    <div class="landing-page">
+      <form id="gameForm">
+        <h3>Settings</h3>
+        <input type="text" placeholder="Player 1" id="p1initName">
+        <input type="checkbox" id="p1iscpu"/> CPU?
+        <br>
+        <input type="text" placeholder="Player 2" id="p2initName">
+        <input type="checkbox" id="p2iscpu"checked/> CPU?
+        <br>
+        <input type ="button" id="startGame" value="Start Game">
+      </form>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div id="controls">
+      <button id="restart">Restart</button>
+      <button id="settings">Settings</button>
+    </div>
     
+    <div class="game" id="p1" data-my-turn="true">
+      <div class="name" id="p1name">Player 1: X</div>
+    </div>
+    <div class="game" id="p2" data-my-turn="false">
+      <div class="name" id="p2name">Player 2: O</div>
+    </div>
+    <div class="game">
+      <table id="board"></table>
+    </div>
+  </div> 
+  <script src="script.js"></script>
 </body>
 </html>
