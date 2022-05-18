@@ -35,7 +35,7 @@ footer{
     padding: 1rem;
     margin:0rem 4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 0.2rem 0.2rem 0.8rem 0.8rem rgba(00, 00, 00,0.6);
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(00, 00, 00,0.6);
     background: linear-gradient(340deg, rgba(18,20,0,0.6),rgba(0,0,60,0.6));
     position: fixed;
     bottom: 1rem;
@@ -45,12 +45,7 @@ footer{
 
 
 
-
-
-
-
-
-/* this style copied from jacfar branch */
+/* this style copied from previos branch */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
