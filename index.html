@@ -1,12 +1,66 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal - www.youtube.com/codingnepal || www.codingnepalweb.com -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>Tic Tac Toe Game | jacfar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    
+    <header>
+        <h1>Hi welcome to Dayax Technology Center</h1>
+        <!-- <h2> midTermAssignment</h2> -->
+    </header>
+  <!-- select box -->
+  <div class="select-box"> <!--This is the first window appears-->
+    <div class="content">
+      <div class="title">Select which player would you like to Be : </div>
+      <div class="options">
+        <button class="playerX">Red Player(X)</button>
+        <button class="playerO">Green Player(O)</button>
+      </div>
+    </div>
+  </div> 
+  <!-- playboard section -->
+  <div class="play-board"><!-- holds the window appears when the game active-->
+    <div class="details">
+      <div class="players"> <!-- a new class will be added when selected the palyer (O)-->
+        <span class="Xturn">Red's Turn</span><!-- label appear top the game= Red's turn or X turn-->
+        <span class="Oturn">Green's Turn</span> <!-- label appear top the game= green's turn or O turn-->
+        <div class="slider"></div><!--This changes the highlights to player-->
+      </div>
+    </div>
+    <div class="play-area"><!-- This holds the boxes of the Game-->
+      <section>
+        <span id="one" class="box1"></span>
+        <span id="two" class="box2"></span>
+        <span class="box3"></span>
+      </section>
+      <section>
+        <span class="box4"></span>
+        <span class="box5"></span>
+        <span class="box6"></span>
+      </section>
+      <section>
+        <span class="box7"></span>
+        <span class="box8"></span>
+        <span class="box9"></span>
+      </section>
+    </div>
+  </div>
+  <!-- result box -->
+  <div class="result-box"><!-- holds window GAME ENDS-->
+    <div class="won-text">
+      <p id="winner"></p>
+    </div><!-- pops the player...winner-->
+    <div class="btn"><button>Replay</button></div>
+  </div>
+  <footer>
+    &copy; Dayax Tech_center
+</footer>
+<!-- <script src="javascript/animationEffects.js"></script> -->
+  <script src="javascript/animationEffects.js"></script>
 </body>
-</html>
+</html
